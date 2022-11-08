@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Slider</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+        .page-row {
+            max-width: 1267px;
+            margin: 0 auto;
+        }
+
+        figure {
+            margin: 1.4rem 0 0;
+        }
+
+        .swiper-slide img {
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+            height: auto;
+            margin: auto;
+        }
+
+        .swiper-container .swiper-slide a {
+            text-decoration: none;
+        }
+
+        .swiper-container .swiper-pagination .swiper-pagination-bullet {
+            width: 20px;
+            height: 3px;
+            opacity: .2;
+            border-radius: 20px;
+            background-color: #127749;
+            margin: 0 6px;
+        }
+
+        .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
+
+        .swiper-button-next, .swiper-button-prev {
+            color: #127749;
+        }
+
+        .swiper-button-next:after, .swiper-button-prev:after {
+            font-size: 21px;
+        }
+
+        .swiper-container .swiper-pagination {
+            position: relative;
+            bottom: 0;
+            margin-top: 3px;
+        }
+
+        .swiper-content__wrapper-img-desktop {
+            display: none;
+        }
+
+        .swiper-content__wrapper-img-mobile {
+            display: block;
+        }
+
+        .swiper-container .swiper-slide p {
+            color: #333;
+            font-family: Helvetica,sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        @media screen and (min-width: 768px) {
+            .swiper-container .swiper-pagination .swiper-pagination-bullet {
+                width: 50px;
+            }
+
+            .swiper-content__wrapper-img-desktop {
+                display: block;
+            }
+
+            .swiper-content__wrapper-img-mobile {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 410px) {
+            .swiper-container .swiper-pagination .swiper-pagination-bullet {
+                width: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-row">
+        <!-- Swiper -->
+        <div class="swiper-container swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-content__wrapper">
+                        <a href=/pages/rolex-at-david-rosas>
+                            <div class="swiper-content__wrapper-img-desktop">
+                                <figure class="img img--wrapper">
+                                    <picture>
+                                    <source media="(max-width: 768px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center.jpg?v=1614274913
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center@2x.jpg?v=1614274913 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center@3x.jpg?v=1614274913 3x"><source media="(max-width: 1024px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center.jpg?v=1614274913
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center@2x.jpg?v=1614274913 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center@3x.jpg?v=1614274913 3x">
+                                    <img loading="lazy" alt="Rolex at David Rosas" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center.jpg?v=1614274913" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center.jpg?v=1614274913 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center@2x.jpg?v=1614274913 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_550x615_crop_center@3x.jpg?v=1614274913 3x"></picture>
+                                </figure>
+                            </div>
+                            <div class="swiper-content__wrapper-img-mobile">
+                                <figure class="img img--wrapper">
+                                    <picture>
+                                    <source media="(max-width: 320px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center.jpg?v=1619775977
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center@2x.jpg?v=1619775977 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center@3x.jpg?v=1619775977 3x"><source media="(max-width: 480px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center.jpg?v=1619775977
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center@2x.jpg?v=1619775977 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center@3x.jpg?v=1619775977 3x">
+                                    <img loading="lazy" alt="Rolex at David Rosas" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center.jpg?v=1619775977" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center.jpg?v=1619775977 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center@2x.jpg?v=1619775977 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-landing-page_portrait_ae2f3a41-5cde-4dce-9174-61a5731a2df3_550x615_crop_center@3x.jpg?v=1619775977 3x"></picture>
+                                </figure>
+                            </div>
+                        <p>Rolex at David Rosas</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-content__wrapper">
+                        <a href=/pages/rolex-at-david-rosas>
+                            <div class="swiper-content__wrapper-img-desktop">
+                                <figure class="img img--wrapper">
+                                    <picture>
+                                    <source media="(max-width: 768px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center.jpg?v=1614275003
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center@2x.jpg?v=1614275003 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center@3x.jpg?v=1614275003 3x"><source media="(max-width: 1024px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center.jpg?v=1614275003
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center@2x.jpg?v=1614275003 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center@3x.jpg?v=1614275003 3x">
+                                    <img loading="lazy" alt="Rolex Collection" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center.jpg?v=1614275003" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center.jpg?v=1614275003 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center@2x.jpg?v=1614275003 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_550x615_crop_center@3x.jpg?v=1614275003 3x"></picture>
+                                </figure>
+                            </div>
+                            <div class="swiper-content__wrapper-img-mobile">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 320px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center.jpg?v=1619775994
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center@2x.jpg?v=1619775994 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center@3x.jpg?v=1619775994 3x"><source media="(max-width: 480px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center.jpg?v=1619775994
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center@2x.jpg?v=1619775994 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center@3x.jpg?v=1619775994 3x">
+                                    <img loading="lazy" alt="Rolex Collection" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center.jpg?v=1619775994" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center.jpg?v=1619775994 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center@2x.jpg?v=1619775994 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-rolex-collection_portrait_550x615_crop_center@3x.jpg?v=1619775994 3x"></picture>
+                                </figure>
+                            </div>
+                            <p>Rolex Collection</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-content__wrapper">
+                        <a href=/pages/rolex-at-david-rosas>
+                            <div class="swiper-content__wrapper-img-desktop">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 768px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center.jpg?v=1648639177
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center@2x.jpg?v=1648639177 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center@3x.jpg?v=1648639177 3x"><source media="(max-width: 1024px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center.jpg?v=1648639177
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center@2x.jpg?v=1648639177 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center@3x.jpg?v=1648639177 3x">
+                                    <img loading="lazy" alt="New Watches 2022" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center.jpg?v=1648639177" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center.jpg?v=1648639177 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center@2x.jpg?v=1648639177 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_550x615_crop_center@3x.jpg?v=1648639177 3x"></picture>
+                                </figure>
+                            </div>
+                            <div class="swiper-content__wrapper-img-mobile">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 320px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center.jpg?v=1648639227
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center@2x.jpg?v=1648639227 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center@3x.jpg?v=1648639227 3x"><source media="(max-width: 480px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center.jpg?v=1648639227
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center@2x.jpg?v=1648639227 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center@3x.jpg?v=1648639227 3x">
+                                    <img loading="lazy" alt="New Watches 2022" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center.jpg?v=1648639227" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center.jpg?v=1648639227 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center@2x.jpg?v=1648639227 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-new-2022-watches_portrait_550x615_crop_center@3x.jpg?v=1648639227 3x"></picture>
+                                </figure>
+                            </div>
+                            <p>New Watches 2022</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-content__wrapper">
+                        <a href=/pages/rolex-at-david-rosas>
+                            <div class="swiper-content__wrapper-img-desktop">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 768px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center.jpg?v=1624904926
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center@2x.jpg?v=1624904926 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center@3x.jpg?v=1624904926 3x"><source media="(max-width: 1024px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center.jpg?v=1624904926
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center@2x.jpg?v=1624904926 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center@3x.jpg?v=1624904926 3x">
+                                    <img loading="lazy" alt="Our History" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center.jpg?v=1624904926" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center.jpg?v=1624904926 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center@2x.jpg?v=1624904926 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_landscape_06_550x615_crop_center@3x.jpg?v=1624904926 3x"></picture>
+                                </figure>
+                            </div>
+                            <div class="swiper-content__wrapper-img-mobile">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 320px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center.jpg?v=1624904992
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center@2x.jpg?v=1624904992 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center@3x.jpg?v=1624904992 3x"><source media="(max-width: 480px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center.jpg?v=1624904992
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center@2x.jpg?v=1624904992 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center@3x.jpg?v=1624904992 3x">
+                                    <img loading="lazy" alt="Our History" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center.jpg?v=1624904992" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center.jpg?v=1624904992 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center@2x.jpg?v=1624904992 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep_exploring_our_rolex_showrooms_portrait_06_550x615_crop_center@3x.jpg?v=1624904992 3x"></picture>
+                                </figure>
+                            </div>
+                            <p>Our History</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-content__wrapper">
+                        <a href=/pages/rolex-at-david-rosas>
+                            <div class="swiper-content__wrapper-img-desktop">
+                                <figure class="img img--wrapper">
+                                    <picture>
+                                    <source media="(max-width: 768px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center.jpg?v=1624902278
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center@2x.jpg?v=1624902278 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center@3x.jpg?v=1624902278 3x"><source media="(max-width: 1024px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center.jpg?v=1624902278
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center@2x.jpg?v=1624902278 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center@3x.jpg?v=1624902278 3x">
+                                    <img loading="lazy" alt="Our Showrooms" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center.jpg?v=1624902278" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center.jpg?v=1624902278 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center@2x.jpg?v=1624902278 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-landscape_550x615_crop_center@3x.jpg?v=1624902278 3x"></picture>
+                                </figure>
+                            </div>
+                            <div class="swiper-content__wrapper-img-mobile">
+                                <figure class="img img--wrapper">
+                                    <picture>
+                                    <source media="(max-width: 320px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center.jpg?v=1624902292
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center@2x.jpg?v=1624902292 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center@3x.jpg?v=1624902292 3x"><source media="(max-width: 480px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center.jpg?v=1624902292
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center@2x.jpg?v=1624902292 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center@3x.jpg?v=1624902292 3x">
+                                    <img loading="lazy" alt="Our Showrooms" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center.jpg?v=1624902292" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center.jpg?v=1624902292 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center@2x.jpg?v=1624902292 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Showroom-Keep-Exploring-portrait_550x615_crop_center@3x.jpg?v=1624902292 3x"></picture>
+                                </figure>
+                            </div>
+                            <p>Our Showrooms 2022</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-content__wrapper">
+                        <a href=/pages/rolex-at-david-rosas>
+                            <div class="swiper-content__wrapper-img-desktop">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 768px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center.jpg?v=1614772380
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center@2x.jpg?v=1614772380 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center@3x.jpg?v=1614772380 3x"><source media="(max-width: 1024px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center.jpg?v=1614772380
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center@2x.jpg?v=1614772380 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center@3x.jpg?v=1614772380 3x">
+                                    <img loading="lazy" alt="Servicing your Rolex" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center.jpg?v=1614772380" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center.jpg?v=1614772380 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center@2x.jpg?v=1614772380 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/keep-exploring-servicing-your-rolex_550x615_crop_center@3x.jpg?v=1614772380 3x"></picture>
+                                </figure>
+                            </div>
+                            <div class="swiper-content__wrapper-img-mobile">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 320px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center.jpg?v=1619776214
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center@2x.jpg?v=1619776214 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center@3x.jpg?v=1619776214 3x"><source media="(max-width: 480px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center.jpg?v=1619776214
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center@2x.jpg?v=1619776214 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center@3x.jpg?v=1619776214 3x">
+                                    <img loading="lazy" alt="Servicing your Rolex" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center.jpg?v=1619776214" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center.jpg?v=1619776214 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center@2x.jpg?v=1619776214 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/KEEP-E_3_550x615_crop_center@3x.jpg?v=1619776214 3x"></picture>
+                                </figure>
+                            </div>
+                            <p>Servicing Your Rolex</p>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="swiper-content__wrapper">
+                        <a href=/pages/rolex-at-david-rosas>
+                            <div class="swiper-content__wrapper-img-desktop">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 768px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center.jpg?v=1624900776
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center@2x.jpg?v=1624900776 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center@3x.jpg?v=1624900776 3x"><source media="(max-width: 1024px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center.jpg?v=1624900776
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center@2x.jpg?v=1624900776 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center@3x.jpg?v=1624900776 3x">
+                                    <img loading="lazy" alt="Contact Us" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center.jpg?v=1624900776" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center.jpg?v=1624900776 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center@2x.jpg?v=1624900776 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-landscape_550x615_crop_center@3x.jpg?v=1624900776 3x"></picture>
+                                </figure>
+                            </div>
+                            <div class="swiper-content__wrapper-img-mobile">
+                                <figure class="img img--wrapper  ">
+                                    <picture>
+                                    <source media="(max-width: 320px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center.jpg?v=1624900783
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center@2x.jpg?v=1624900783 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center@3x.jpg?v=1624900783 3x"><source media="(max-width: 480px)" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center.jpg?v=1624900783
+                                1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center@2x.jpg?v=1624900783 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center@3x.jpg?v=1624900783 3x">
+                                    <img loading="lazy" alt="Contact Us" width="550" height="615" src="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center.jpg?v=1624900783" srcset="https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center.jpg?v=1624900783 1x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center@2x.jpg?v=1624900783 2x,https://cdn.shopify.com/s/files/1/0472/5843/5733/files/Contact-Us-Keep-Exploring-portrait_550x615_crop_center@3x.jpg?v=1624900783 3x"></picture>
+                                </figure>
+                            </div>
+                            <p>Contact Us</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 2,
+          spaceBetween: 30,
+          effect:	"slide",
+          scrollbar: false,
+          loop: false,
+          breakpointsInverse: true,
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              loop: false
+            },
+            1024: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              slidesPerGroup: 1
+            }
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>
