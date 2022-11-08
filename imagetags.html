@@ -13,23 +13,43 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
 
-    <!-- Demo styles -->
     <style>
         .page-row {
             max-width: 1267px;
             margin: 0 auto;
+            position: relative;
         }
 
         figure {
             margin: 1.4rem 0 0;
         }
 
-        .swiper-slide img {
-            display: block;
+        .swiper-content__wrapper-img-desktop,
+        .swiper-content__wrapper-img-mobile {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-content__wrapper-img-desktop img,
+        .swiper-content__wrapper-img-mobile img {
             max-width: 100%;
-            max-height: 100%;
-            height: auto;
-            margin: auto;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-container {
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            list-style: none;
+            padding: 0;
+            z-index: 1;
+        }
+
+        .page-row .swiper-container {
+            position: unset;
+            margin: 0 45px;
         }
 
         .swiper-container .swiper-slide a {
