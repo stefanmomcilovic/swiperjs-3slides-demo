@@ -102,6 +102,14 @@
         }
 
         @media screen and (min-width: 768px) {
+            .swiper-content__wrapper-img-mobile img {
+                isplay: block;
+                max-width: 100%;
+                max-height: 100%;
+                height: auto;
+                margin: auto;
+            }
+
             .swiper-container .swiper-pagination .swiper-pagination-bullet {
                 width: 50px;
             }
@@ -238,7 +246,7 @@
     <!-- Initialize Swiper -->
      <script>
         var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 1,
+          slidesPerView: 2,
           spaceBetween: 30,
           effect:	"slide",
           scrollbar: false,
