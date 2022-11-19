@@ -236,9 +236,9 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
-    <script>
+     <script>
         var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 30,
           effect:	"slide",
           scrollbar: false,
@@ -247,14 +247,12 @@
           breakpoints: {
             768: {
               slidesPerView: 2,
-              slidesPerGroup: 2,
-              loop: false
+              spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 3,
-              slidesPerGroup: 3,
-              slidesPerGroup: 1
-            }
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
           },
           pagination: {
             el: ".swiper-pagination",
@@ -265,6 +263,6 @@
             prevEl: ".swiper-button-prev",
           },
         });
-      </script>
+    </script>
 </body>
 </html>
